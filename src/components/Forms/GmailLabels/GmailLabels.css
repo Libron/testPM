@@ -1,0 +1,111 @@
+@import url("../../../assets/css/Default.css");
+
+#gmail-labels {
+    position: relative;
+}
+
+#gmail-labels .fixed {
+    box-sizing: border-box;
+    max-height: 146px;
+    overflow: auto;
+    margin-bottom: 10px;
+}
+
+#gmail-labels .fixed::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    background-color: #F5F5F5;
+}
+
+#gmail-labels .fixed::-webkit-scrollbar
+{
+    width: 5px;
+    background-color: #F5F5F5;
+}
+
+#gmail-labels .fixed::-webkit-scrollbar-thumb
+{
+    background-color: #000000;
+    border: 2px solid #555555;
+}
+
+#gmail-labels .row {
+    justify-content: flex-start;
+}
+
+#gmail-labels input[name="title"],
+#gmail-labels input[name="label"] {
+    width: 30%;
+}
+
+#gmail-labels input[name="url"] {
+    width: 60%;
+}
+
+#gmail-labels button[type="submit"],
+#gmail-labels button[type="button"] {
+    cursor: pointer;
+    width: 40%;
+    border: none;
+    background: #4CAF50;
+    color: #FFF;
+    margin: 5px;
+    padding: 10px;
+    font-size: 15px;
+}
+
+#gmail-labels button[type="button"] {
+    background: #00796b;
+}
+
+#gmail-labels button[type="submit"]:hover,
+#gmail-labels button[type="button"]:hover {
+    background: #43A047;
+    -webkit-transition: background 0.3s ease-in-out;
+    -moz-transition: background 0.3s ease-in-out;
+    transition: background-color 0.3s ease-in-out;
+}
+
+#gmail-labels button[type="button"]:hover {
+    background: #009688;
+}
+
+#gmail-labels button[type="submit"]:active {
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+#gmail-labels input[name="title"] {
+    margin-right: 10px;
+}
+#gmail-labels input:focus {
+    outline: 0;
+    border: 1px solid #aaa;
+}
+
+::-webkit-input-placeholder {
+    color: #888;
+}
+
+:-moz-placeholder {
+    color: #888;
+}
+
+::-moz-placeholder {
+    color: #888;
+}
+
+:-ms-input-placeholder {
+    color: #888;
+}
+
+@media screen and (max-width: 800px) {
+    #gmail-labels input[name="title"] {
+        margin-right: 10px;
+        width: 30%;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    #gmail-page {
+        width: 100%;
+    }
+}
