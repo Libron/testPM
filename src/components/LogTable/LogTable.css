@@ -1,0 +1,26 @@
+@import url("../../assets/css/Default.css");
+
+#customers {
+    font-family: inherit;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#customers td, #customers th {
+    border: 1px solid #ddd;
+    padding: 2px 15px;
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #263238;
+    color: white;
+}
+
+#customers th:first-child {
+    width: 20%;
+}

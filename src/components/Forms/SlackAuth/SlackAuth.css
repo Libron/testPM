@@ -1,0 +1,46 @@
+#slack-auth {
+    position: relative;
+}
+
+#slack-auth form input {
+    width: 100%;
+}
+
+#slack-auth form button {
+    width: 40%;
+    background: #4CAF50;
+    color: #FFF;
+}
+
+#slack-auth form button[type="button"] {
+    background: #00796b;
+}
+
+#slack-auth form button[type="submit"]:hover {
+    background: #43A047;
+}
+
+#slack-auth form button[type="button"]:hover {
+    background: #009688;
+}
+
+#slack-auth form input:focus {
+    outline: 0;
+    border: 1px solid #aaa;
+}
+
+::-webkit-input-placeholder {
+    color: #888;
+}
+
+:-moz-placeholder {
+    color: #888;
+}
+
+::-moz-placeholder {
+    color: #888;
+}
+
+:-ms-input-placeholder {
+    color: #888;
+}

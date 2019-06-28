@@ -1,0 +1,14 @@
+#slack-page .col:first-child {
+    width: 35%;
+}
+
+#slack-page .col:last-child {
+    width: 65%;
+}
+
+@media screen and (max-width: 1000px) {
+    #slack-page .col:first-child,
+    #slack-page .col:last-child {
+        width: 100%;
+    }
+}

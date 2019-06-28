@@ -1,0 +1,109 @@
+#slack-tags {
+    position: relative;
+}
+
+#slack-tags .fixed {
+    box-sizing: border-box;
+    max-height: 146px;
+    overflow: auto;
+    margin-bottom: 10px;
+}
+
+#slack-tags .fixed::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    background-color: #F5F5F5;
+}
+
+#slack-tags .fixed::-webkit-scrollbar
+{
+    width: 5px;
+    background-color: #F5F5F5;
+}
+
+#slack-tags .fixed::-webkit-scrollbar-thumb
+{
+    background-color: #000000;
+    border: 2px solid #555555;
+}
+
+#slack-tags .row {
+    justify-content: flex-start;
+}
+
+#slack-tags input[name="tag"],
+#slack-tags input[name="label"] {
+    width: 30%;
+}
+
+#slack-tags input[name="url"] {
+    width: 60%;
+}
+
+#slack-tags button[type="submit"],
+#slack-tags button[type="button"] {
+    cursor: pointer;
+    width: 40%;
+    border: none;
+    background: #4CAF50;
+    color: #FFF;
+    margin: 5px;
+    padding: 10px;
+    font-size: 15px;
+}
+
+#slack-tags button[type="button"] {
+    background: #00796b;
+}
+
+#slack-tags button[type="submit"]:hover,
+#slack-tags button[type="button"]:hover {
+    background: #43A047;
+    -webkit-transition: background 0.3s ease-in-out;
+    -moz-transition: background 0.3s ease-in-out;
+    transition: background-color 0.3s ease-in-out;
+}
+
+#slack-tags button[type="button"]:hover {
+    background: #009688;
+}
+
+#slack-tags button[type="submit"]:active {
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+#slack-tags input[name="title"] {
+    margin-right: 10px;
+}
+#slack-tags input:focus {
+    outline: 0;
+    border: 1px solid #aaa;
+}
+
+::-webkit-input-placeholder {
+    color: #888;
+}
+
+:-moz-placeholder {
+    color: #888;
+}
+
+::-moz-placeholder {
+    color: #888;
+}
+
+:-ms-input-placeholder {
+    color: #888;
+}
+
+@media screen and (max-width: 800px) {
+    #slack-tags input[name="title"] {
+        margin-right: 10px;
+        width: 30%;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    #slack-page {
+        width: 100%;
+    }
+}

@@ -1,0 +1,15 @@
+#gmail-page .col:first-child {
+    width: 35%;
+}
+
+#gmail-page .col:last-child {
+    width: 65%;
+}
+
+
+@media screen and (max-width: 1000px) {
+    #gmail-page .col:first-child,
+    #gmail-page .col:last-child {
+        width: 100%;
+    }
+}

@@ -1,0 +1,90 @@
+.accordion {
+
+}
+
+.accordion .accordion-item .title {
+    border-bottom: 1px solid #f5f5f5;
+    background: #252C31;
+}
+
+.accordion .accordion-item:first-child .title {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.accordion .accordion-item:last-child .title {
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.accordion .accordion-item .title {
+    background-color: #f6f6f6;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    -webkit-transition: 0.4s;
+    -o-transition: 0.4s;
+    transition: 0.4s;
+}
+.accordion .accordion-item .title:after {
+    content: '\2795';
+    font-size: 13px;
+    color: #777;
+    float: right;
+    margin-left: 5px;
+}
+.accordion .accordion-item .panel {
+    max-height: 0;
+    -webkit-transition: max-height 0.15s ease-out;
+    -o-transition: max-height 0.15s ease-out;
+    transition: max-height 0.15s ease-out;
+    overflow: auto;
+    background: #fff;
+}
+
+/* Scroll */
+.accordion .accordion-item .panel::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    background-color: #F5F5F5;
+}
+
+.accordion .accordion-item .panel::-webkit-scrollbar
+{
+    width: 1px;
+    background-color: grey;
+}
+
+.accordion .accordion-item .panel::-webkit-scrollbar-thumb
+{
+    background-color: grey;
+    border: 1px solid #555555;
+}
+/*asd*/
+
+.accordion .accordion-item.active .title {
+    background-color: #607d8b;
+}
+.accordion .accordion-item.active .title:after {
+    content: '\2796';
+}
+.accordion .accordion-item.active .panel {
+    max-height: 500px;
+    -webkit-transition: max-height 0.25s ease-in;
+    -o-transition: max-height 0.25s ease-in;
+    transition: max-height 0.25s ease-in;
+}
+/*# sourceMappingURL=index.css.map*/
+
+
+
+.accordion .accordion-item .title {
+    background: #252C31;
+    color: #fff;
+    border-bottom: 1px solid #37474f;
+}
+
+.accordion .accordion-item .title:hover {
+    background: #37474f;
+}

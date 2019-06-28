@@ -1,0 +1,83 @@
+/* PM Theme - customized default theme for PMs Integration */
+.pm-input {
+    border: 1px solid #ccc;
+    background: #FFF;
+    margin: 0 5px 5px 0;
+    padding: 10px;
+}
+
+.pm-input:hover {
+    -webkit-transition: border-color 0.3s ease-in-out;
+    -moz-transition: border-color 0.3s ease-in-out;
+    transition: border-color 0.3s ease-in-out;
+    border: 1px solid #aaa;
+}
+
+.pm-row-inline {
+    display: flex;
+    justify-content: space-around;
+}
+
+.pm-button {
+    cursor: pointer;
+    border: none;
+    margin: 5px;
+    padding: 10px;
+    font-size: 15px;
+}
+
+.pm-remove-button {
+    cursor: pointer;
+    border: none;
+    margin: auto 3px;
+    width: 15px;
+    height: 15px;
+    background-color: transparent;
+    background-position: center;
+    background-image: url("../icons/ic_remove.svg");
+    background-repeat: no-repeat;
+}
+
+.pm-component {
+    background: #F9F9F9;
+    padding: 15px;
+    margin: 15px 15px 0 15px;
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.13), 0 1px 4px 1px rgba(0, 0, 0, 0.15);
+}
+
+.pm-title {
+    display: block;
+    font-size: 18px;
+    font-weight: 300;
+    margin: 0 0 15px 0;
+}
+
+
+.pm-row .pm-col-2 {
+    display: inline-block;
+    vertical-align: top;
+    width: 50%;
+}
+
+.pm-badge {
+    padding: 2px 5px;
+    color: #fff;
+    margin-left: 10px;
+    font-style: italic;
+    font-size: 16px;
+    background-color: orangered;
+    border-radius: 7px;
+}
+
+fieldset {
+    border: medium none !important;
+    margin: 0 0 10px;
+    padding: 0;
+    width: 100%;
+}
+
+@media screen and (max-width: 1050px) {
+    .pm-button {
+        font-size: 12px;
+    }
+}
